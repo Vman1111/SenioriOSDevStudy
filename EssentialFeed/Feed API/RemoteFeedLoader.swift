@@ -1,7 +1,4 @@
 //
-//  RemoteFeedLoader.swift
-//  EssentialFeed
-//
 //  Created by Vytautas Sapranavicius on 21/01/2024.
 //
 
@@ -24,7 +21,7 @@ public final class RemoteFeedLoader {
         self.client = client
     }
     
-    public func load(completion: @escaping (Error) -> Void = { _ in }) {
+    public func load(completion: @escaping (Error) -> Void) {
         client.get(from: url) { error in
             completion(.connectivity)
         }
