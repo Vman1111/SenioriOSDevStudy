@@ -8,3 +8,5 @@ commit `Add CI scheme` - follow video to see changes for this commit
 
 commit `Add Travis CI config` - follow video to see changes for this commit
 
+commit `Add CI build status badge` - follow video to see changes for this commit
+
