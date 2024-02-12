@@ -5,3 +5,6 @@ commit `Enable random test execution order to guarantee there is no order depend
 commit `Enable code coverage gathering` - follow video to see changes for this commit
 
 commit `Add CI scheme` - follow video to see changes for this commit
+
+commit `Add Travis CI config` - follow video to see changes for this commit
+
