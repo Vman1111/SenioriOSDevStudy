@@ -192,3 +192,4 @@ commit `Add CI build status badge` - follow video to see changes for this commit
 
 commit `Delete the CodableFeedStore in favor of the CoreDataFeedStore (we just need one in this project). If needed, of course, we can revert this commit and restore the `Codable` implementation.` - not actually deleted because I want to keep the code in repo
 
+commit `Include EssentialFeedCacheIntegrationTests test target in the CI scheme to guarantee we build and run all cache integration tests as part of the continuous integration pipeline.` - do not yet actually have a CI scheme. No need for it right now.
