@@ -190,3 +190,5 @@ commit `Add Travis CI config` - follow video to see changes for this commit
 
 commit `Add CI build status badge` - follow video to see changes for this commit
 
+commit `Delete the CodableFeedStore in favor of the CoreDataFeedStore (we just need one in this project). If needed, of course, we can revert this commit and restore the `Codable` implementation.` - not actually deleted because I want to keep the code in repo
+
