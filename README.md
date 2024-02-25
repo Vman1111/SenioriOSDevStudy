@@ -205,3 +205,5 @@ VIDEO: Gathering Fast Feedback and Validating UI Design and Dev Decisions Throug
 commit `Add empty project for prototype` - watch video
 
 commit `Add prototype storyboard with table view and feed cell layout` - watch video
+
+commit `Add FeedViewController rendering 10 cellst` - watch video
