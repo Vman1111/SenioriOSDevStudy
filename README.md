@@ -199,3 +199,7 @@ VIDEO:  Improving Model Composability With Swift’s Standard Result and Optiona
 commit `Migrate to Swift 5 (no source changes needed!)` - watch video. Likelly nothing to do here.
 
 commit `Enable Base Internationalization (a recommended setting in the Xcode 10.2.1)` - watch video.
+
+VIDEO: Gathering Fast Feedback and Validating UI Design and Dev Decisions Through Realistic App Prototypes
+
+commit `Add empty project for prototype` - watch video
