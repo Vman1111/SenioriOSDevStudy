@@ -215,3 +215,5 @@ commit `Add FeedImageCell with storyboard connections` - watch video
 commit `Render prototype feed data on the table view` - watch video
 
 commit `Add fade-in animation to simulate "asynchronous image loading"` - watch video
+
+commit `Add app icon` - watch video
