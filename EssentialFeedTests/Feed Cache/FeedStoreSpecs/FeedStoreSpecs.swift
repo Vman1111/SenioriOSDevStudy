@@ -1,7 +1,4 @@
 //
-//  FeedStoreSpecs.swift
-//  EssentialFeedTests
-//
 //  Created by Vytautas Sapranavicius on 23/02/2024.
 //
 
