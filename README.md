@@ -213,3 +213,5 @@ commit `Add prototype feed data for demoing purposes` - watch video
 commit `Add FeedImageCell with storyboard connections` - watch video
 
 commit `Render prototype feed data on the table view` - watch video
+
+commit `Add fade-in animation to simulate "asynchronous image loading"` - watch video
