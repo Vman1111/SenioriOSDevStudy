@@ -203,3 +203,5 @@ commit `Enable Base Internationalization (a recommended setting in the Xcode 10.
 VIDEO: Gathering Fast Feedback and Validating UI Design and Dev Decisions Through Realistic App Prototypes
 
 commit `Add empty project for prototype` - watch video
+
+commit `Add prototype storyboard with table view and feed cell layout` - watch video
