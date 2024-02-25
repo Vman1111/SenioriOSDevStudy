@@ -2,7 +2,6 @@
 //  Created by Vytautas Sapranavicius on 23/02/2024.
 //
 
-
 import XCTest
 import EssentialFeed
 
@@ -16,6 +15,6 @@ extension FailableInsertFeedStoreSpecs where Self: XCTestCase {
     func assertThatInsertHasNoSideEffectsOnInsertionError(on sut: FeedStore, file: StaticString = #file, line: UInt = #line) {
         insert((uniqueImageFeed().local, Date()), to: sut)
 
-        expect(sut, toRetrieve: .empty, file: file, line: line)
+        expect(sut, toRetrieve: .success(.empty), file: file, line: line)
     }
 }
