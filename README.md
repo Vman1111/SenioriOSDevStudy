@@ -209,3 +209,5 @@ commit `Add prototype storyboard with table view and feed cell layout` - watch v
 commit `Add FeedViewController rendering 10 cells` - watch video
 
 commit `Add prototype feed data for demoing purposes` - watch video
+
+commit `Add FeedImageCell with storyboard connections` - watch video
