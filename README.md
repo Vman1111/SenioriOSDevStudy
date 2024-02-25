@@ -197,3 +197,5 @@ commit `Include EssentialFeedCacheIntegrationTests test target in the CI scheme 
 VIDEO:  Improving Model Composability With Swift’s Standard Result and Optional Types, Map, Functors, and Powerful Refactorings Backed by Tests and Types (Compiler!)
 
 commit `Migrate to Swift 5 (no source changes needed!)` - watch video. Likelly nothing to do here.
+
+commit `Enable Base Internationalization (a recommended setting in the Xcode 10.2.1)` - watch video.
