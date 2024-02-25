@@ -211,3 +211,5 @@ commit `Add FeedViewController rendering 10 cells` - watch video
 commit `Add prototype feed data for demoing purposes` - watch video
 
 commit `Add FeedImageCell with storyboard connections` - watch video
+
+commit `Render prototype feed data on the table view` - watch video
