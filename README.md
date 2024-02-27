@@ -225,3 +225,9 @@ commit `Make EssentialFeedAPIEndToEndTests target support macOS and iOS since it
 commit `Make `EssentialFeedCacheIntegrationTests` target support macOS and iOS since it's platform-independent (can run on any platform!)`  -already done on previous commit
 
 commit `Add separate CI schemes for macOS and iOS as we now have an iOS-specific target that should not be tested on macOS`  -not relevant right now as I do not have a CI scheme.
+
+VIDEO: Apple MVC, Test-driving UIViewControllers, Dealing with UIKit’s Inversion of Control & Temporal Coupling, and Decoupling Tests from UI Implementation Details
+
+commit `Add UIRefreshControl to prototype to simulate async loading of the feed` - Prototype not beeing done here as I deem it not important and can be done later by fallowing the relevant video.
+
+
