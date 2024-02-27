@@ -217,3 +217,7 @@ commit `Render prototype feed data on the table view` - watch video
 commit `Add fade-in animation to simulate "asynchronous image loading"` - watch video
 
 commit `Add app icon` - watch video
+
+VIDEO: Supporting Multiple Platforms with Swift Frameworks While Separating Platform-specific Components to Facilitate Loose Coupling and Speed up Development
+
+commit `Make EssentialFeedAPIEndToEndTests target support macOS and iOS since it's platform-independent (can run on any platform!)`  -alreadu done on previous commit
