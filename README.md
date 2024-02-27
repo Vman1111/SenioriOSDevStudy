@@ -220,6 +220,8 @@ commit `Add app icon` - watch video
 
 VIDEO: Supporting Multiple Platforms with Swift Frameworks While Separating Platform-specific Components to Facilitate Loose Coupling and Speed up Development
 
-commit `Make EssentialFeedAPIEndToEndTests target support macOS and iOS since it's platform-independent (can run on any platform!)`  -alreadu done on previous commit
+commit `Make EssentialFeedAPIEndToEndTests target support macOS and iOS since it's platform-independent (can run on any platform!)`  -already done on previous commit
 
-commit `Make `EssentialFeedCacheIntegrationTests` target support macOS and iOS since it's platform-independent (can run on any platform!)`  -alreadu done on previous commit
+commit `Make `EssentialFeedCacheIntegrationTests` target support macOS and iOS since it's platform-independent (can run on any platform!)`  -already done on previous commit
+
+commit `Add separate CI schemes for macOS and iOS as we now have an iOS-specific target that should not be tested on macOS`  -not relevant right now as I do not have a CI scheme.
