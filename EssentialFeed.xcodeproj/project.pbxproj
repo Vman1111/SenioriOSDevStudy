@@ -207,6 +207,7 @@
 		8A6C2D232BBC6DD900C68131 /* FeedImageDataStoreSpy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedImageDataStoreSpy.swift; sourceTree = "<group>"; };
 		8A6C2D252BBC6E5A00C68131 /* CacheFeedImageDataUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedImageDataUseCaseTests.swift; sourceTree = "<group>"; };
 		8A6C2D272BBC70B200C68131 /* CoreDataFeedImageDataStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFeedImageDataStoreTests.swift; sourceTree = "<group>"; };
+		8A6C2D2A2BBD595500C68131 /* FeedStore2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FeedStore2.xcdatamodel; sourceTree = "<group>"; };
 		8A8AE3E42B7AA02100A2F2DB /* CacheFeedUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheFeedUseCaseTests.swift; sourceTree = "<group>"; };
 		8AA773932B87B5D90095FE36 /* CodableFeedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableFeedStore.swift; sourceTree = "<group>"; };
 		8AAC06582B86540500D34273 /* ValidateFeedCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidateFeedCacheUseCaseTests.swift; sourceTree = "<group>"; };
@@ -538,8 +539,8 @@
 		8ACCBF432B892CC5000552D5 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
-				8A5BB3402B8921E600408BA3 /* CoreDataFeedStore.swift */,
 				8A5BB3422B89232100408BA3 /* FeedStore.xcdatamodeld */,
+				8A5BB3402B8921E600408BA3 /* CoreDataFeedStore.swift */,
 				8ACCBF452B892DB0000552D5 /* CoreDataHelpers.swift */,
 				8ACCBF472B892E20000552D5 /* ManagedCache.swift */,
 				8ACCBF492B892E46000552D5 /* ManagedFeedImage.swift */,
@@ -1539,6 +1540,7 @@
 		8A5BB3422B89232100408BA3 /* FeedStore.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				8A6C2D2A2BBD595500C68131 /* FeedStore2.xcdatamodel */,
 				8A5BB3432B89232100408BA3 /* EssentialFeedModel.xcdatamodel */,
 			);
 			currentVersion = 8A5BB3432B89232100408BA3 /* EssentialFeedModel.xcdatamodel */;
