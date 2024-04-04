@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A75B7F22BBEC7C6002564D7 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */; };
+		8A75B7F32BBEC7C6002564D7 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A75B7F42BBEC7C6002564D7 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */; };
+		8A75B7F52BBEC7C6002564D7 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A86B9A72BBEB7B400B3435B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A86B9A62BBEB7B400B3435B /* AppDelegate.swift */; };
 		8A86B9A92BBEB7B400B3435B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A86B9A82BBEB7B400B3435B /* SceneDelegate.swift */; };
 		8A86B9AB2BBEB7B400B3435B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A86B9AA2BBEB7B400B3435B /* ViewController.swift */; };
@@ -15,7 +19,24 @@
 		8A86B9B32BBEB7B800B3435B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A86B9B12BBEB7B800B3435B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		8A75B7F62BBEC7C6002564D7 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8A75B7F32BBEC7C6002564D7 /* EssentialFeed.framework in Embed Frameworks */,
+				8A75B7F52BBEC7C6002564D7 /* EssentialFeediOS.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A86B9A32BBEB7B400B3435B /* SeniorStudyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorStudyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A86B9A62BBEB7B400B3435B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A86B9A82BBEB7B400B3435B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,17 +52,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A75B7F22BBEC7C6002564D7 /* EssentialFeed.framework in Frameworks */,
+				8A75B7F42BBEC7C6002564D7 /* EssentialFeediOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A75B7EF2BBEC7C6002564D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */,
+				8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8A86B99A2BBEB7B400B3435B = {
 			isa = PBXGroup;
 			children = (
 				8A86B9A52BBEB7B400B3435B /* SeniorStudyApp */,
 				8A86B9A42BBEB7B400B3435B /* Products */,
+				8A75B7EF2BBEC7C6002564D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +110,7 @@
 				8A86B99F2BBEB7B400B3435B /* Sources */,
 				8A86B9A02BBEB7B400B3435B /* Frameworks */,
 				8A86B9A12BBEB7B400B3435B /* Resources */,
+				8A75B7F62BBEC7C6002564D7 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -290,9 +324,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A4HM6Z46PX;
+				DEVELOPMENT_TEAM = YK85C8KC5D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeniorStudyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -307,6 +342,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sapranavicius.vytautas.com.SeniorStudyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -318,9 +354,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A4HM6Z46PX;
+				DEVELOPMENT_TEAM = YK85C8KC5D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SeniorStudyApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -335,6 +372,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sapranavicius.vytautas.com.SeniorStudyApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
