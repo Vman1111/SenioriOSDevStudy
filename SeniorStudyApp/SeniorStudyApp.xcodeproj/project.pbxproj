@@ -11,6 +11,7 @@
 		8A75B7F32BBEC7C6002564D7 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A75B7F42BBEC7C6002564D7 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */; };
 		8A75B7F52BBEC7C6002564D7 /* EssentialFeediOS.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8A75B8052BC00463002564D7 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A75B8042BC00463002564D7 /* FeedLoaderWithFallbackCompositeTests.swift */; };
 		8A86B9A72BBEB7B400B3435B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A86B9A62BBEB7B400B3435B /* AppDelegate.swift */; };
 		8A86B9A92BBEB7B400B3435B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A86B9A82BBEB7B400B3435B /* SceneDelegate.swift */; };
 		8A86B9AB2BBEB7B400B3435B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A86B9AA2BBEB7B400B3435B /* ViewController.swift */; };
@@ -48,6 +49,7 @@
 		8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A75B7FB2BBFFE79002564D7 /* SeniorStudyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeniorStudyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A75B8042BC00463002564D7 /* FeedLoaderWithFallbackCompositeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoaderWithFallbackCompositeTests.swift; sourceTree = "<group>"; };
 		8A86B9A32BBEB7B400B3435B /* SeniorStudyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeniorStudyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A86B9A62BBEB7B400B3435B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8A86B9A82BBEB7B400B3435B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		8A75B7FC2BBFFE79002564D7 /* SeniorStudyAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				8A75B8042BC00463002564D7 /* FeedLoaderWithFallbackCompositeTests.swift */,
 			);
 			path = SeniorStudyAppTests;
 			sourceTree = "<group>";
@@ -178,6 +181,7 @@
 				TargetAttributes = {
 					8A75B7FA2BBFFE79002564D7 = {
 						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
 						TestTargetID = 8A86B9A22BBEB7B400B3435B;
 					};
 					8A86B9A22BBEB7B400B3435B = {
@@ -229,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A75B8052BC00463002564D7 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A4HM6Z46PX;
@@ -284,6 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = sapranavicius.vytautas.com.SeniorStudyAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeniorStudyApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SeniorStudyApp";
@@ -294,6 +301,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A4HM6Z46PX;
@@ -360,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -417,7 +425,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
