@@ -99,7 +99,7 @@ class RemoteFeedImageDataLoaderTests: XCTestCase {
 
     func test_loadImageDataFromURL_doesNotDeliverResultAfterSUTInstanceHasBeenDeallocated() {
         let client = HTTPClientSpy()
-        var sut: LoadFeedImageDataFromRemoteUseCaseTests? = LoadFeedImageDataFromRemoteUseCaseTests(client: client)
+        var sut: RemoteFeedImageDataLoader? = RemoteFeedImageDataLoader(client: client)
 
         var capturedResults = [FeedImageDataLoader.Result]()
         _ = sut?.loadImageData(from: anyURL()) { capturedResults.append($0) }
@@ -110,19 +110,19 @@ class RemoteFeedImageDataLoaderTests: XCTestCase {
         XCTAssertTrue(capturedResults.isEmpty)
     }
 
-    private func makeSUT(url: URL = anyURL(), file: StaticString = #file, line: UInt = #line) -> (sut: LoadFeedImageDataFromRemoteUseCaseTests, client: HTTPClientSpy) {
+    private func makeSUT(url: URL = anyURL(), file: StaticString = #file, line: UInt = #line) -> (sut: RemoteFeedImageDataLoader, client: HTTPClientSpy) {
         let client = HTTPClientSpy()
-        let sut = LoadFeedImageDataFromRemoteUseCaseTests(client: client)
+        let sut = RemoteFeedImageDataLoader(client: client)
         trackForMemoryLeaks(sut, file: file, line: line)
         trackForMemoryLeaks(client, file: file, line: line)
         return (sut, client)
     }
 
-    private func failure(_ error: LoadFeedImageDataFromRemoteUseCaseTests.Error) -> FeedImageDataLoader.Result {
+    private func failure(_ error: RemoteFeedImageDataLoader.Error) -> FeedImageDataLoader.Result {
         return .failure(error)
     }
 
-    private func expect(_ sut: LoadFeedImageDataFromRemoteUseCaseTests, toCompleteWith expectedResult: FeedImageDataLoader.Result, when action: () -> Void, file: StaticString = #file, line: UInt = #line) {
+    private func expect(_ sut: RemoteFeedImageDataLoader, toCompleteWith expectedResult: FeedImageDataLoader.Result, when action: () -> Void, file: StaticString = #file, line: UInt = #line) {
         let url = URL(string: "https://a-given-url.com")!
         let exp = expectation(description: "Wait for load completion")
 
@@ -131,7 +131,7 @@ class RemoteFeedImageDataLoaderTests: XCTestCase {
             case let (.success(receivedData), .success(expectedData)):
                 XCTAssertEqual(receivedData, expectedData, file: file, line: line)
 
-            case let (.failure(receivedError as LoadFeedImageDataFromRemoteUseCaseTests.Error), .failure(expectedError as LoadFeedImageDataFromRemoteUseCaseTests.Error)):
+            case let (.failure(receivedError as RemoteFeedImageDataLoader.Error), .failure(expectedError as RemoteFeedImageDataLoader.Error)):
                 XCTAssertEqual(receivedError, expectedError, file: file, line: line)
 
             case let (.failure(receivedError as NSError), .failure(expectedError as NSError)):
