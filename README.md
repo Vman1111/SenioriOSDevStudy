@@ -319,3 +319,4 @@ VIDEO: Composite Pattern: Implementing a Flexible & Composable Strategy for Load
 
 commit `Remove unused test case` - nothing to do here.
 
+commit `Configure CI to run tests for the EssentialApp iOS application` - not relevant
