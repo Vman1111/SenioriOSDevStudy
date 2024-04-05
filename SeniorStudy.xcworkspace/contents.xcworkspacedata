@@ -7,4 +7,7 @@
    <FileRef
       location = "container:SeniorStudyApp/SeniorStudyApp.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:../SeniorStudyApp.xctestplan">
+   </FileRef>
 </Workspace>
