@@ -387,13 +387,6 @@
 			path = "Feed UI";
 			sourceTree = "<group>";
 		};
-		8A4E0EE72B98ED4B00A7A6BA /* Feed Image Loader */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Feed Image Loader";
-			sourceTree = "<group>";
-		};
 		8A4E0EEE2B98EF7800A7A6BA /* Composers */ = {
 			isa = PBXGroup;
 			children = (
@@ -422,7 +415,6 @@
 		8A65B8C32B8E47730049180C /* EssentialFeediOS */ = {
 			isa = PBXGroup;
 			children = (
-				8A4E0EE72B98ED4B00A7A6BA /* Feed Image Loader */,
 				8A4E0EE52B98E9CC00A7A6BA /* Feed UI */,
 				8A65B8C42B8E47730049180C /* EssentialFeediOS.h */,
 			);
