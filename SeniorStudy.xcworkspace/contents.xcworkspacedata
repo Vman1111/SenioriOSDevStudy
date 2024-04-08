@@ -8,6 +8,6 @@
       location = "container:SeniorStudyApp/SeniorStudyApp.xcodeproj">
    </FileRef>
    <FileRef
-      location = "group:../SeniorStudyApp.xctestplan">
+      location = "group:SeniorStudyApp/SeniorStudyApp.xctestplan">
    </FileRef>
 </Workspace>

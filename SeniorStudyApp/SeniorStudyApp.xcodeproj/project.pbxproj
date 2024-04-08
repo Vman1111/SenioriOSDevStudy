@@ -31,10 +31,18 @@
 		8A86B9AE2BBEB7B400B3435B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A86B9AC2BBEB7B400B3435B /* Main.storyboard */; };
 		8A86B9B02BBEB7B800B3435B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A86B9AF2BBEB7B800B3435B /* Assets.xcassets */; };
 		8A86B9B32BBEB7B800B3435B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A86B9B12BBEB7B800B3435B /* LaunchScreen.storyboard */; };
+		8AE3A4322BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3A4312BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		8A75B7FF2BBFFE79002564D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A86B99B2BBEB7B400B3435B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A86B9A22BBEB7B400B3435B;
+			remoteInfo = SeniorStudyApp;
+		};
+		8AE3A42C2BC462D5005AC60E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8A86B99B2BBEB7B400B3435B /* Project object */;
 			proxyType = 1;
@@ -84,6 +92,8 @@
 		8A86B9AF2BBEB7B800B3435B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A86B9B22BBEB7B800B3435B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A86B9B42BBEB7B800B3435B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE3A4262BC462D5005AC60E /* SeniorStudyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeniorStudyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8AE3A4312BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +110,13 @@
 			files = (
 				8A75B7F22BBEC7C6002564D7 /* EssentialFeed.framework in Frameworks */,
 				8A75B7F42BBEC7C6002564D7 /* EssentialFeediOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE3A4232BC462D5005AC60E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +162,7 @@
 			children = (
 				8A86B9A52BBEB7B400B3435B /* SeniorStudyApp */,
 				8A75B7FC2BBFFE79002564D7 /* SeniorStudyAppTests */,
+				8AE3A4272BC462D5005AC60E /* SeniorStudyAppUITests */,
 				8A86B9A42BBEB7B400B3435B /* Products */,
 				8A75B7EF2BBEC7C6002564D7 /* Frameworks */,
 			);
@@ -155,6 +173,7 @@
 			children = (
 				8A86B9A32BBEB7B400B3435B /* SeniorStudyApp.app */,
 				8A75B7FB2BBFFE79002564D7 /* SeniorStudyAppTests.xctest */,
+				8AE3A4262BC462D5005AC60E /* SeniorStudyAppUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -175,6 +194,14 @@
 				8A75B8232BC051DD002564D7 /* FeedImageDataLoaderCacheDecorator.swift */,
 			);
 			path = SeniorStudyApp;
+			sourceTree = "<group>";
+		};
+		8AE3A4272BC462D5005AC60E /* SeniorStudyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8AE3A4312BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift */,
+			);
+			path = SeniorStudyAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,6 +243,24 @@
 			productReference = 8A86B9A32BBEB7B400B3435B /* SeniorStudyApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8AE3A4252BC462D5005AC60E /* SeniorStudyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AE3A4302BC462D5005AC60E /* Build configuration list for PBXNativeTarget "SeniorStudyAppUITests" */;
+			buildPhases = (
+				8AE3A4222BC462D5005AC60E /* Sources */,
+				8AE3A4232BC462D5005AC60E /* Frameworks */,
+				8AE3A4242BC462D5005AC60E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8AE3A42D2BC462D5005AC60E /* PBXTargetDependency */,
+			);
+			name = SeniorStudyAppUITests;
+			productName = SeniorStudyAppUITests;
+			productReference = 8AE3A4262BC462D5005AC60E /* SeniorStudyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,6 +279,11 @@
 					8A86B9A22BBEB7B400B3435B = {
 						CreatedOnToolsVersion = 15.2;
 					};
+					8AE3A4252BC462D5005AC60E = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+						TestTargetID = 8A86B9A22BBEB7B400B3435B;
+					};
 				};
 			};
 			buildConfigurationList = 8A86B99E2BBEB7B400B3435B /* Build configuration list for PBXProject "SeniorStudyApp" */;
@@ -251,6 +301,7 @@
 			targets = (
 				8A86B9A22BBEB7B400B3435B /* SeniorStudyApp */,
 				8A75B7FA2BBFFE79002564D7 /* SeniorStudyAppTests */,
+				8AE3A4252BC462D5005AC60E /* SeniorStudyAppUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -270,6 +321,13 @@
 				8A86B9B32BBEB7B800B3435B /* LaunchScreen.storyboard in Resources */,
 				8A86B9B02BBEB7B800B3435B /* Assets.xcassets in Resources */,
 				8A86B9AE2BBEB7B400B3435B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AE3A4242BC462D5005AC60E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +365,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8AE3A4222BC462D5005AC60E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AE3A4322BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -314,6 +380,11 @@
 			isa = PBXTargetDependency;
 			target = 8A86B9A22BBEB7B400B3435B /* SeniorStudyApp */;
 			targetProxy = 8A75B7FF2BBFFE79002564D7 /* PBXContainerItemProxy */;
+		};
+		8AE3A42D2BC462D5005AC60E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A86B9A22BBEB7B400B3435B /* SeniorStudyApp */;
+			targetProxy = 8AE3A42C2BC462D5005AC60E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -344,7 +415,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A4HM6Z46PX;
+				DEVELOPMENT_TEAM = YK85C8KC5D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sapranavicius.vytautas.com.SeniorStudyAppTests;
@@ -364,7 +435,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = A4HM6Z46PX;
+				DEVELOPMENT_TEAM = YK85C8KC5D;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = sapranavicius.vytautas.com.SeniorStudyAppTests;
@@ -555,6 +626,45 @@
 			};
 			name = Release;
 		};
+		8AE3A42E2BC462D5005AC60E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK85C8KC5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sapranavicius.vytautas.com.SeniorStudyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeniorStudyApp;
+			};
+			name = Debug;
+		};
+		8AE3A42F2BC462D5005AC60E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YK85C8KC5D;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sapranavicius.vytautas.com.SeniorStudyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SeniorStudyApp;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +691,15 @@
 			buildConfigurations = (
 				8A86B9B82BBEB7B800B3435B /* Debug */,
 				8A86B9B92BBEB7B800B3435B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AE3A4302BC462D5005AC60E /* Build configuration list for PBXNativeTarget "SeniorStudyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8AE3A42E2BC462D5005AC60E /* Debug */,
+				8AE3A42F2BC462D5005AC60E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
