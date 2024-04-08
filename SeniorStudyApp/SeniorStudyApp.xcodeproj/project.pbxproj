@@ -31,6 +31,7 @@
 		8A86B9AE2BBEB7B400B3435B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A86B9AC2BBEB7B400B3435B /* Main.storyboard */; };
 		8A86B9B02BBEB7B800B3435B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A86B9AF2BBEB7B800B3435B /* Assets.xcassets */; };
 		8A86B9B32BBEB7B800B3435B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A86B9B12BBEB7B800B3435B /* LaunchScreen.storyboard */; };
+		8ABA8FCF2BC46DA7006D1FEA /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA8FCE2BC46DA7006D1FEA /* DebuggingSceneDelegate.swift */; };
 		8AE3A4322BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3A4312BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -92,6 +93,7 @@
 		8A86B9AF2BBEB7B800B3435B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A86B9B22BBEB7B800B3435B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A86B9B42BBEB7B800B3435B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8ABA8FCE2BC46DA7006D1FEA /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		8AE3A4262BC462D5005AC60E /* SeniorStudyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeniorStudyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AE3A4312BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -182,6 +184,7 @@
 			isa = PBXGroup;
 			children = (
 				8A86B9A62BBEB7B400B3435B /* AppDelegate.swift */,
+				8ABA8FCE2BC46DA7006D1FEA /* DebuggingSceneDelegate.swift */,
 				8A86B9A82BBEB7B400B3435B /* SceneDelegate.swift */,
 				8A86B9AA2BBEB7B400B3435B /* ViewController.swift */,
 				8A86B9AC2BBEB7B400B3435B /* Main.storyboard */,
@@ -359,6 +362,7 @@
 				8A86B9A72BBEB7B400B3435B /* AppDelegate.swift in Sources */,
 				8A75B8072BC00E8B002564D7 /* FeedLoaderWithFallbackComposite.swift in Sources */,
 				8A75B81A2BC048BE002564D7 /* FeedLoaderCacheDecorator.swift in Sources */,
+				8ABA8FCF2BC46DA7006D1FEA /* DebuggingSceneDelegate.swift in Sources */,
 				8A86B9A92BBEB7B400B3435B /* SceneDelegate.swift in Sources */,
 				8A75B80B2BC0129D002564D7 /* FeedImageDataLoaderWithFallbackComposite.swift in Sources */,
 				8A75B8242BC051DD002564D7 /* FeedImageDataLoaderCacheDecorator.swift in Sources */,
