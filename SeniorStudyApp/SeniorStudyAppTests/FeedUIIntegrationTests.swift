@@ -4,6 +4,7 @@
 
 import XCTest
 import UIKit
+import SeniorStudyApp
 import EssentialFeed
 import EssentialFeediOS
 

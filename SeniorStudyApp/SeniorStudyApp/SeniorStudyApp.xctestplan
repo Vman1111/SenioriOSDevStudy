@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "C504CFEB-F47A-4036-AB67-3258F5AC1CBF",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:SeniorStudyApp.xcodeproj",
+      "identifier" : "8A86B9A22BBEB7B400B3435B",
+      "name" : "SeniorStudyApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:SeniorStudyApp.xcodeproj",
+        "identifier" : "8A75B7FA2BBFFE79002564D7",
+        "name" : "SeniorStudyAppTests"
+      }
+    }
+  ],
+  "version" : 1
+}
