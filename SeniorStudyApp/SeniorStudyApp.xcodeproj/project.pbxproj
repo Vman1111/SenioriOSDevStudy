@@ -51,7 +51,6 @@
 		8A8C69C42BC47F9100D97B97 /* FeedUIIntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8C69C32BC47F9100D97B97 /* FeedUIIntegrationTests.swift */; };
 		8A8C69C62BC4841500D97B97 /* FeedAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A8C69C52BC4841500D97B97 /* FeedAcceptanceTests.swift */; };
 		8ABA8FCF2BC46DA7006D1FEA /* DebuggingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA8FCE2BC46DA7006D1FEA /* DebuggingSceneDelegate.swift */; };
-		8AE3A4322BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AE3A4312BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -133,7 +132,6 @@
 		8A8C69C52BC4841500D97B97 /* FeedAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedAcceptanceTests.swift; sourceTree = "<group>"; };
 		8ABA8FCE2BC46DA7006D1FEA /* DebuggingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebuggingSceneDelegate.swift; sourceTree = "<group>"; };
 		8AE3A4262BC462D5005AC60E /* SeniorStudyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeniorStudyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8AE3A4312BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EssentialAppUIAcceptanceTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,7 +213,6 @@
 			children = (
 				8A86B9A52BBEB7B400B3435B /* SeniorStudyApp */,
 				8A75B7FC2BBFFE79002564D7 /* SeniorStudyAppTests */,
-				8AE3A4272BC462D5005AC60E /* SeniorStudyAppUITests */,
 				8A86B9A42BBEB7B400B3435B /* Products */,
 				8A75B7EF2BBEC7C6002564D7 /* Frameworks */,
 			);
@@ -254,14 +251,6 @@
 				8A75B8232BC051DD002564D7 /* FeedImageDataLoaderCacheDecorator.swift */,
 			);
 			path = SeniorStudyApp;
-			sourceTree = "<group>";
-		};
-		8AE3A4272BC462D5005AC60E /* SeniorStudyAppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				8AE3A4312BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift */,
-			);
-			path = SeniorStudyAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -449,7 +438,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AE3A4322BC4655F005AC60E /* EssentialAppUIAcceptanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
