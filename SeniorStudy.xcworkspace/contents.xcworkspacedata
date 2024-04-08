@@ -10,4 +10,7 @@
    <FileRef
       location = "group:SeniorStudyApp/SeniorStudyApp.xctestplan">
    </FileRef>
+   <FileRef
+      location = "group:SeniorStudyApp/SeniorStudyAppTests.xctestplan">
+   </FileRef>
 </Workspace>
