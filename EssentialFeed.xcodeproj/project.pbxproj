@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A00D3C22BC57B6C000100AF /* FeedSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00D3C12BC57B6C000100AF /* FeedSnapshotTests.swift */; };
 		8A1F77C42BA9CF0600E00831 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1F77C32BA9CF0600E00831 /* Feed.storyboard */; };
 		8A1F77C82BAA068F00E00831 /* UITableView+Dequeuing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F77C72BAA068F00E00831 /* UITableView+Dequeuing.swift */; };
 		8A1F77CA2BAA06D800E00831 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F77C92BAA06D800E00831 /* UIImageView+Animations.swift */; };
@@ -145,6 +146,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A00D3C12BC57B6C000100AF /* FeedSnapshotTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedSnapshotTests.swift; sourceTree = "<group>"; };
+		8A00D3C92BC58B64000100AF /* offline_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offline_test.swift; sourceTree = "<group>"; };
+		8A00D3CB2BC58B64000100AF /* offline_testLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offline_testLaunchTests.swift; sourceTree = "<group>"; };
 		8A1F77C32BA9CF0600E00831 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		8A1F77C72BAA068F00E00831 /* UITableView+Dequeuing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeuing.swift"; sourceTree = "<group>"; };
 		8A1F77C92BAA06D800E00831 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
@@ -280,6 +284,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A00D3C82BC58B64000100AF /* offline test */ = {
+			isa = PBXGroup;
+			children = (
+				8A00D3C92BC58B64000100AF /* offline_test.swift */,
+				8A00D3CB2BC58B64000100AF /* offline_testLaunchTests.swift */,
+			);
+			path = "offline test";
+			sourceTree = "<group>";
+		};
 		8A30B2732B792DA400CFFC20 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
@@ -321,13 +334,6 @@
 			path = "Feed UI";
 			sourceTree = "<group>";
 		};
-		8A4E0EE62B98EA1800A7A6BA /* Feed UI */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Feed UI";
-			sourceTree = "<group>";
-		};
 		8A5BB33D2B891FCB00408BA3 /* FeedStoreSpecs */ = {
 			isa = PBXGroup;
 			children = (
@@ -352,7 +358,7 @@
 		8A65B8CD2B8E47760049180C /* EssentialFeediOSTests */ = {
 			isa = PBXGroup;
 			children = (
-				8A4E0EE62B98EA1800A7A6BA /* Feed UI */,
+				8A00D3C12BC57B6C000100AF /* FeedSnapshotTests.swift */,
 			);
 			path = EssentialFeediOSTests;
 			sourceTree = "<group>";
@@ -504,6 +510,7 @@
 				8ACCBF502B89F2AE000552D5 /* EssentialFeedCacheIntegrationTests */,
 				8A65B8C32B8E47730049180C /* EssentialFeediOS */,
 				8A65B8CD2B8E47760049180C /* EssentialFeediOSTests */,
+				8A00D3C82BC58B64000100AF /* offline test */,
 				FA38DEF72B48565800F315D3 /* Products */,
 				8A65B8D82B8E4C0D0049180C /* Frameworks */,
 			);
@@ -839,6 +846,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A65B8DE2B8E4CF50049180C /* XCTestCase+MemoryLeakTracking.swift in Sources */,
+				8A00D3C22BC57B6C000100AF /* FeedSnapshotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1055,7 +1063,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YK85C8KC5D;
+				DEVELOPMENT_TEAM = A4HM6Z46PX;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
@@ -1074,7 +1082,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = YK85C8KC5D;
+				DEVELOPMENT_TEAM = A4HM6Z46PX;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
