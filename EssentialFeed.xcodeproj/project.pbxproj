@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A00D3C22BC57B6C000100AF /* FeedSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A00D3C12BC57B6C000100AF /* FeedSnapshotTests.swift */; };
 		8A01541A2BC952D000A60A32 /* UIImage+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0154192BC952D000A60A32 /* UIImage+TestHelpers.swift */; };
+		8A01541C2BC953B300A60A32 /* UITableView+HeaderSizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A01541B2BC953B300A60A32 /* UITableView+HeaderSizing.swift */; };
 		8A1F77C42BA9CF0600E00831 /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A1F77C32BA9CF0600E00831 /* Feed.storyboard */; };
 		8A1F77C82BAA068F00E00831 /* UITableView+Dequeuing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F77C72BAA068F00E00831 /* UITableView+Dequeuing.swift */; };
 		8A1F77CA2BAA06D800E00831 /* UIImageView+Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A1F77C92BAA06D800E00831 /* UIImageView+Animations.swift */; };
@@ -151,6 +152,7 @@
 		8A00D3C92BC58B64000100AF /* offline_test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offline_test.swift; sourceTree = "<group>"; };
 		8A00D3CB2BC58B64000100AF /* offline_testLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = offline_testLaunchTests.swift; sourceTree = "<group>"; };
 		8A0154192BC952D000A60A32 /* UIImage+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+TestHelpers.swift"; sourceTree = "<group>"; };
+		8A01541B2BC953B300A60A32 /* UITableView+HeaderSizing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+HeaderSizing.swift"; sourceTree = "<group>"; };
 		8A1F77C32BA9CF0600E00831 /* Feed.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Feed.storyboard; sourceTree = "<group>"; };
 		8A1F77C72BAA068F00E00831 /* UITableView+Dequeuing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Dequeuing.swift"; sourceTree = "<group>"; };
 		8A1F77C92BAA06D800E00831 /* UIImageView+Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Animations.swift"; sourceTree = "<group>"; };
@@ -444,6 +446,7 @@
 				8AC9FD902BB344B0001BEA1F /* UIRefreshControl+Helpers.swift */,
 				8A1F77C72BAA068F00E00831 /* UITableView+Dequeuing.swift */,
 				8A65B8E32B8E57B90049180C /* UIView+Shimmering.swift */,
+				8A01541B2BC953B300A60A32 /* UITableView+HeaderSizing.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -841,6 +844,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A01541C2BC953B300A60A32 /* UITableView+HeaderSizing.swift in Sources */,
 				8AC9FD8C2BB33C15001BEA1F /* ErrorView.swift in Sources */,
 				8A65B8E42B8E57B90049180C /* UIView+Shimmering.swift in Sources */,
 				8A1F77C82BAA068F00E00831 /* UITableView+Dequeuing.swift in Sources */,
