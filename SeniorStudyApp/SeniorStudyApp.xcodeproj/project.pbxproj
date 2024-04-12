@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0154242BC95EFA00A60A32 /* UIView+TestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0154232BC95EFA00A60A32 /* UIView+TestHelpers.swift */; };
 		8A75B7F22BBEC7C6002564D7 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */; };
 		8A75B7F32BBEC7C6002564D7 /* EssentialFeed.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		8A75B7F42BBEC7C6002564D7 /* EssentialFeediOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */; };
@@ -87,6 +88,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A0154232BC95EFA00A60A32 /* UIView+TestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+TestHelpers.swift"; sourceTree = "<group>"; };
 		8A75B7F02BBEC7C6002564D7 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A75B7F12BBEC7C6002564D7 /* EssentialFeediOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = EssentialFeediOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A75B7FB2BBFFE79002564D7 /* SeniorStudyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeniorStudyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +210,7 @@
 				8A75B81F2BC04F74002564D7 /* XCTestCase+FeedImageDataLoader.swift */,
 				8A8C69C72BC4877700D97B97 /* HTTPClientStub.swift */,
 				8A8C69C92BC487DC00D97B97 /* InMemoryFeedStore.swift */,
+				8A0154232BC95EFA00A60A32 /* UIView+TestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 				8A75B8052BC00463002564D7 /* FeedLoaderWithFallbackCompositeTests.swift in Sources */,
 				8A8C69B72BC478E700D97B97 /* FeedUIIntegrationTests+LoaderSpy.swift in Sources */,
 				8A75B8142BC03C74002564D7 /* FeedLoaderStub.swift in Sources */,
+				8A0154242BC95EFA00A60A32 /* UIView+TestHelpers.swift in Sources */,
 				8A8C69B82BC478E700D97B97 /* FeedUIIntegrationTests.swift in Sources */,
 				8A8C69B92BC478E700D97B97 /* FeedViewController+TestHelpers.swift in Sources */,
 				8A8C69BB2BC478E700D97B97 /* UIButton+TestHelpers.swift in Sources */,
